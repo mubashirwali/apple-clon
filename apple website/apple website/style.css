@@ -1,0 +1,279 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} */
+.navbar{
+    display: flex;
+    background-color: darkgrey;
+}
+.unoder ul li{
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 30px;
+    cursor: pointer;
+    
+}
+.unoder ul :hover{
+    color: white;
+    background-color: blue;
+}
+.font h1{
+    margin-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.font h4{
+    margin-left: 400px;
+    font-size: 30px;
+}
+.font h2{
+    margin-left: 490px;
+}
+.font h5{
+    margin-left: 550px;
+    font-size: 20px;
+}
+.font a{
+    margin-left: 565px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: dodgerblue;
+}
+.font{
+    background-image: url(./images/hero_ase2023__fajyx7tk70a6_largetall.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+.class1{
+    background-image: url(./images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+}
+.class1 img{
+    margin-left: 500px;
+    margin-top: 550px;
+    width: 250px;
+    height: 100px;
+}
+.class1 p{
+    margin-left: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+button{
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    color: aliceblue;
+    background-color:dodgerblue;
+    border-width: 2px;
+    border-color:dodgerblue;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.class2{
+    background-image: url(./images/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 600px;
+    margin-top: 230px;
+}
+.class2 h1{
+    margin-left: 450px;
+    padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.class2 h2{
+    color: white;
+    margin-left: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+}
+.class2 a{
+    color:dodgerblue;
+    margin-left: 350px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.class3 .pic1 h1{
+
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+}
+.class3 .pic1 h2{
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: black;
+}
+.class3 .pic1 a{
+    margin-left: 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+}
+.class3 .pic2 h1{
+   margin-left: 125px;
+   /* margin-bottom: 20px; */
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+}
+.class3 .pic2 h2{
+    margin-left: 75px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.class3 .pic2 a{
+    margin-left: 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.class3 .pic2{
+    margin-top: 25px;
+    
+}
+.class3{
+    display: inline-flex;
+}
+.class3 .pic1{
+    background-image: url(./images/promo_iphone15_announce__fmxxi8r9fkuy_large.jpg);
+    width: 50%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ .class3 .pic2{
+   background-image: url(./images/promo_mbp__ek7p477bkp6q_large\ \(1\).jpg);
+   width: 50%;
+   height: 600px;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-left: 175px;
+
+ }
+ .class4 .vid1 h1{
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+ .class4 .vid1 h2{
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .class4 .vid1 a{
+    margin-left: 300px;
+ }
+ .class4 .vid1{
+    background-image: url(./images/holiday_2023_promo__dirvdl6a3r2a_medium.jpg);
+    width: 50%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .class4 .vid2{
+    background-image: url(./images/promo_apple_watch_ultra2_order__dyxqj5ia98om_medium.jpg);
+    width: 50%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .class4 .vid2 img{
+    margin-left: 200px;
+    margin-top: 40px;
+ }
+ .class4 .vid2 h2{
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+ }
+ .class4 .vid2 a{
+    margin-left: 150px;
+    color: dodgerblue;
+ }
+ .class4 .vid2{
+    margin-left: 70px;
+ }
+  
+ .class4{
+    display: flex;
+    
+ }
+ .class5 .mov1 img{
+    margin-left: 150px;
+ }
+ .class5 .mov1 h2{
+    margin-left: 100px;
+ }
+ .class5 .mov1 a{
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .class5{
+    display: flex;
+  }
+ .class5 .mov2 img{
+    margin-left: 200px;
+ } 
+ .class5 .mov2 h1{
+    margin-left: 100px;
+ }
+ .class5 .mov2 a{
+    margin-left: 175px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+.class5 .mov1{
+    background-image: url(./images/card2.jpg);
+    width: 50%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ .class5 .mov2{
+    background-image: url(./images/iphone_tradein_promo__d5au3rkw5kuq_small.jpg);
+    width: 50%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.section{
+    background-image: url(./images/fnb__brvfy48gzsz6_large.jpg);
+    /* width: 100%; */
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.div{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.order{
+    display: flex;
+    margin-left: 200px;
+    height: 100px;
+   
+}
+.order li{
+list-style: none;
+}
